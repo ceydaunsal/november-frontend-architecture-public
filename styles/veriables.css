@@ -1,0 +1,19 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --font-size-xs: 12px;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 22px;
+  --font-size-xxl: 64px;
+  --clr-backround-dark-grey: #2c2c2c;
+  --clr-background-white: #fff;
+  --clr-text-white: #fff;
+  --clr-text-grey: #c8c8c8;
+  --clr-text-soft-grey: #8d8d8d;
+  --clr-text-black: #000;
+  --clr-light-grey: #f2f2f2;
+  --clr-soft-grey: #f9f9f9;
+  --clr-dark-grey: #333333;
+  --clr-medium-grey: #bdbdbd;
+}

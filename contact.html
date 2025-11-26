@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/veriables.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--[NO-5]-Design-the-Header-Section-START-->
+      <section class="navbar">
+        <div class="header_logo">
+          <img class="Group-logo" src="images\header\Group .svg" />
+        </div>
+        <div class="nav-links" id="navLinks">
+          <div
+            class="active-line active-line-top"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+          <a href="index.html" class="active" data-link="main">MAIN</a>
+          <a href="gallery.html" data-link="gallery">GALLERY</a>
+          <a href="project.html" data-link="projects">PROJECTS</a>
+          <a href="about.html" data-link="about">ABOUT</a>
+          <a href="/contact.html" data-link="contacts">CONTACTS</a>
+          <div
+            class="active-line active-line-bottom"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+        </div>
+        <div class="mobile-menu-icon" id="mobileMenuIcon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <script src="index.js"></script>
+        <!--[NO-5]-Design-the-Header-Section-END-->
+      </section>
+      <!--[NO-27]Implement-the-Contact-Information-Section-START-->
+      <section class="No-27-Container">
+        <div class="No-27-box">
+          <h6 class="No-27-contact">
+            Contact <br /><span class="No-27-spaninfarmation">Information</span>
+          </h6>
+          <p class="No-27-adress">
+            Company Name <br /><span class="No-27-spanadress"
+              >1234 Sample Street Austin Texas 76401</span
+            >
+          </p>
+          <p class="No-27-number">512.333.2222</p>
+          <p class="No-27-mail">sampleemail@gmail.com</p>
+          <button class="No-27-btn">CONTACT US</button>
+        </div>
+        <div class="No-27-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.6811375529!2d-97.7429307885893!3d30.274665174703465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a014ac8dcf%3A0xcb6f5722a795d039!2sTexas%20State%20Capitol!5e0!3m2!1str!2str!4v1733239122985!5m2!1str!2str"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <!--[NO-27]Implement-the-Contact-Information-Section-END-->
+    </header>
+
+    <!--[NO-9] Create the Footer Section - START-->
+
+    <footer>
+      <div id="footerContainer"></div>
+    </footer>
+
+    <!--[NO-9] Create the Footer Section - END-->
+
+    <script src="contact.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

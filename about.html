@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/veriables.css" />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- [NO-5] - Design the Header Section - START -->
+      <section class="navbar">
+        <div class="header_logo">
+          <img class="Group-logo" src="images/header/Group .svg" />
+        </div>
+        <div class="nav-links" id="navLinks">
+          <div
+            class="active-line active-line-top"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+          <a href="/index.html" class="active" data-link="main">MAIN</a>
+          <a href="/gallery.html" data-link="gallery">GALLERY</a>
+          <a href="/project.html" data-link="projects">PROJECTS</a>
+          <a href="/about.html" data-link="about">ABOUT</a>
+          <a href="/contact.html" data-link="contacts">CONTACTS</a>
+          <div
+            class="active-line active-line-bottom"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+        </div>
+        <div class="mobile-menu-icon" id="mobileMenuIcon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </section>
+      <!-- [NO-5] - Design the Header Section - END -->
+    </header>
+    <main>
+      <!-- [NO-31] - About Page - START -->
+      <div class="about-container">
+        <header>
+          <h1 class="about-title">About Our Architecture Firm</h1>
+          <p class="subtitle">Designing the Future, One Building at a Time</p>
+        </header>
+        <div class="about-content">
+          <div class="text-content">
+            <p id="paragraph1"></p>
+            <p id="paragraph2"></p>
+            <p id="paragraph3"></p>
+            <a class="cta-button" href="#" id="ctaButton">
+              <i class="fas fa-building icon"></i>
+              <span id="ctaText"></span>
+            </a>
+            <a class="cta-button secondary" href="#" id="contactButton">
+              <i class="fas fa-envelope icon"></i>
+              <span id="contactText"></span>
+            </a>
+          </div>
+          <div class="image-grid">
+            <img id="image1" src="images/about-page/image1.jpg" />
+            <img id="image2" src="images/about-page/image2.jpg" />
+            <img id="image3" src="images/about-page/image3.jpg" />
+            <img id="image4" src="images/about-page/image4.jpg" />
+          </div>
+          <a class="cta-button third" href="/gallery.html" id="galleryButton">
+            <i class="fas fa-images icon"></i>
+            <span id="galleryText"></span>
+          </a>
+        </div>
+      </div>
+      <!-- [NO-31] - About Page - END -->
+    </main>
+    <footer>
+      <!-- [NO-9] Create the Footer Section - START -->
+      <div id="footerContainer"></div>
+      <!-- [NO-9] Create the Footer Section - END -->
+    </footer>
+    <script src="about.js"></script>
+  </body>
+</html>

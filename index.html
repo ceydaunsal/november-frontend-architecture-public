@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/veriables.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--[NO-5]-Design-the-Header-Section-START-->
+      <section class="navbar">
+        <div class="header_logo">
+          <img class="Group-logo" src="images\header\Group .svg" />
+        </div>
+        <div class="nav-links" id="navLinks">
+          <div
+            class="active-line active-line-top"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+          <a href="#" class="active" data-link="main">MAIN</a>
+          <a href="/gallery.html" data-link="gallery">GALLERY</a>
+          <a href="/project.html" data-link="projects">PROJECTS</a>
+          <a href="/about.html" data-link="about">ABOUT</a>
+          <a href="/contact.html" data-link="contacts">CONTACTS</a>
+          <div
+            class="active-line active-line-bottom"
+            style="width: 39.2812px; left: 20px"
+          ></div>
+        </div>
+        <div class="mobile-menu-icon" id="mobileMenuIcon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </section>
+      <!--[NO-5]-Design-the-Header-Section-END-->
+    </header>
+    <main>
+      <!--NO-7]-Design-the-Hero-Section-Started-->
+      <section id="dynamic-hero" class="dynamic-hero">
+        <div class="hero-content">
+          <h1 id="hero-title" class="hero-title">PROJECT</h1>
+          <h2 id="hero-subtitle" class="hero-subtitle">Lorum</h2>
+
+          <div class="arrow-controls">
+            <button id="left-arrow" class="arrow-button">←</button>
+            <button id="right-arrow" class="arrow-button">→</button>
+          </div>
+
+          <div class="hero-pagination">
+            <span id="current-page" class="current-page">01</span>
+            <span class="page-divider">/</span>
+            <span id="total-pages" class="total-pages">05</span>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <img id="hero-image" class="hero-image" src="" alt="Hero Image" />
+          <a href="#" class="hero-cta"
+            >VİEW PROJECT<span class="arrow-right">→</span></a
+          >
+        </div>
+      </section>
+      <!--NO-7]-Design-the-Hero-Section-Finished-->
+      <!--[NO-13]-Implement-the-About-Section-START-->
+      <section id="about-section"></section>
+      <!--[NO-13]-Implement-the-About-Section-END-->
+
+      <!--[NO-19]-Main focus/Mission statement START-->
+
+      <div class="main-wrapper">
+        <h1 class="main-wrapper-text">Main Focus/Mission Statement</h1>
+        <div class="slider">
+          <div class="slides" id="main-focus-slider"></div>
+          <button class="prev main-focus-slider-btn">‹</button>
+          <button class="next main-focus-slider-btn">›</button>
+        </div>
+      </div>
+
+      <!--[NO-19]-Main focus/Mission statement END-->
+
+      <!--[NO-17]-OUR-PROJECT-SECTİON-STARTED-->
+      <div class="projects-container">
+        <div class="projects-title">
+          <h1>Our Projects</h1>
+        </div>
+        <div class="projects-row-two">
+          <div class="projects-image-box highlight">
+            <img src="images/our-project/project1.svg" alt="Project 1" />
+            <div class="highlight-content">
+              <h2>
+                Sample <br />
+                Project
+              </h2>
+              <a href="specific.html?pageid=1" class="view-more-link">VIEW MORE →</a>
+            </div>
+          </div>
+          <div class="projects-image-box">
+            <img src="images/our-project/project2.png" alt="Project 2" />
+          </div>
+        </div>
+        <div class="projects-row projects-row-three">
+          <div class="projects-image-box projects-small">
+            <img src="images/our-project/project3.png" alt="Project 3" />
+          </div>
+          <div class="projects-image-box projects-large">
+            <img src="images/our-project/project4.png" alt="Project 4" />
+          </div>
+          <div class="projects-image-box projects-medium">
+            <img src="images/our-project/project5.png" alt="Project 5" />
+          </div>
+        </div>
+        <div class="all-projects-button">
+          <button id="allProjectsBtn">ALL PROJECTS →</button>
+        </div>
+      </div>
+      <!--[NO-17]OUR-PROJECT-SECTİON-FİNİSHED-->
+      <!--[NO-11] Contact-Form-Section - START-->
+      <section class="contact-form-area">
+        <div class="contact-text">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="contact-form-area-img">
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              autocomplete="off"
+              placeholder="Name *"
+              class="contact-form-input"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              autocomplete="off"
+              placeholder="Phone Number *"
+              class="contact-form-input"
+              pattern="[0-9]*"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              autocomplete="off"
+              placeholder="E-mail *"
+              class="contact-form-input"
+              required
+            />
+            <input
+              type="text"
+              name="interestedIn"
+              autocomplete="off"
+              placeholder="Interested In"
+              class="contact-form-input"
+            />
+            <textarea
+              class="contact-form-input contact-form-textarea"
+              name="message"
+              placeholder="Message *"
+              required
+            ></textarea>
+          </form>
+          <div class="contact-img">
+            <img src="images/contact-forn/image 12.png" alt="contact-image" />
+          </div>
+        </div>
+        <button class="send-mail-btn">
+          SEND EMAIL <img src="images/contact-forn/arrow.svg" alt="arrow" />
+        </button>
+      </section>
+      <!--[NO-11] Contact-Form-Section - END-->
+    </main>
+    <!--[NO-9] Create the Footer Section - START-->
+    <footer>
+      <div id="footerContainer"></div>
+    </footer>
+    <!--[NO-9] Create the Footer Section - END-->
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "PROJECT",
+    "subtitle": "Lorem 1",
+    "image": "./images/hero-images/first.svg"
+  },
+  {
+    "title": "URBAN",
+    "subtitle": "Lorem 2",
+    "image": "./images/hero-images/urban.svg"
+  },
+  {
+    "title": "FUTURISTIC",
+    "subtitle": "Lorem 3",
+    "image": "./images/hero-images/futuristic.svg"
+  },
+  {
+    "title": "MINIMALIST",
+    "subtitle": "Lorem 4",
+    "image": "./images/hero-images/minimalist.svg"
+  },
+  {
+    "title": "ABSTRACT",
+    "subtitle": "Lorem 5",
+    "image": "./images/hero-images/abstract.svg"
+  }
+]
