@@ -3,6 +3,9 @@
 Bu proje, bir **mimarlık firmasının frontend tasarımını** içeren dinamik ve görsel ağırlıklı bir web uygulamasıdır.  
 Sayfa, mimari projelerin, fotoğraf galerilerinin ve iletişim bilgilerinin kullanıcı dostu bir şekilde sunulmasını sağlar.
 
+🔗**Canlı Önizleme:** (https://november-frontend-architecture-1.archisacademy.com/)
+
+
 ---
 
 ## Sayfa Yapısı ve Özellikler
@@ -55,6 +58,4 @@ Projede aşağıdaki sayfalar ve bölümler bulunmaktadır:
 - CSS ve JS dosyaları, her sayfanın dinamik ve responsive çalışmasını destekler  
 - Sayfalar birbirine bağlıdır, kullanıcı bir sayfadan diğerine sorunsuz geçiş yapabilir
 
----
 
-🔗**Canlı Önizleme:** (https://november-frontend-architecture-1.archisacademy.com/)
