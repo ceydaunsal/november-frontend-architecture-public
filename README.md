@@ -53,5 +53,8 @@ Projede aşağıdaki sayfalar ve bölümler bulunmaktadır:
 - Projede **JSON veri dosyaları** kullanılarak içerik dinamik hâle getirilmiştir  
 - **Görseller, bannerlar ve proje fotoğrafları** interaktif şekilde sunulmuştur  
 - CSS ve JS dosyaları, her sayfanın dinamik ve responsive çalışmasını destekler  
-- Sayfalar birbirine bağlıdır, kullanıcı bir sayfadan diğerine sorunsuz geçiş yapabilir  
+- Sayfalar birbirine bağlıdır, kullanıcı bir sayfadan diğerine sorunsuz geçiş yapabilir
 
+---
+
+🔗**Canlı Önizleme:** (https://november-frontend-architecture-1.archisacademy.com/)
