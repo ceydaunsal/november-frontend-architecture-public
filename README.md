@@ -1,4 +1,4 @@
-# November Frontend - Architecture Public
+# November Frontend - Architecture
 
 Bu proje, bir **mimarlık firmasının frontend tasarımını** içeren dinamik ve görsel ağırlıklı bir web uygulamasıdır.  
 Sayfa, mimari projelerin, fotoğraf galerilerinin ve iletişim bilgilerinin kullanıcı dostu bir şekilde sunulmasını sağlar.
